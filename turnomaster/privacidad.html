@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — TurnoMaster</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f8fc;
+      --card: #ffffff;
+      --ink: #132238;
+      --muted: #4b5d73;
+      --accent: #2ea6ee;
+      --border: #dce7f3;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      padding: 24px 16px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      box-shadow: 0 8px 24px rgba(19, 34, 56, 0.06);
+    }
+    h1, h2 {
+      color: var(--ink);
+      line-height: 1.25;
+    }
+    h1 {
+      margin-top: 0;
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 10px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de Privacidad — TurnoMaster</h1>
+    <p class="meta"><strong>Última actualización:</strong> 20 de noviembre de 2026</p>
+    <p><strong>TurnoMaster</strong> es una aplicación gratuita para Android que permite gestionar calendarios de turnos de trabajo, individuales o compartidos con un equipo. Responsable: Maresias Street (maresiastreet7). Contacto: <a href="mailto:maresiastreet7@gmail.com">maresiastreet7@gmail.com</a>.</p>
+
+    <h2>1. Datos que tratamos</h2>
+    <ul>
+      <li><strong>Cuenta:</strong> al iniciar sesión con Google se obtienen tu nombre, dirección de correo electrónico, foto de perfil e identificador de usuario (Firebase Authentication).</li>
+      <li><strong>Contenido que introduces:</strong> calendarios, tipos de turno, horarios, tarifas, días asignados, notas, iconos, imágenes adjuntas a los días y solicitudes de ausencia. Se guardan en Google Cloud Firestore.</li>
+      <li><strong>Fotos de cuadrantes:</strong> si usas el escáner, la imagen que eliges o fotografías se envía a Gemini (a través de Firebase AI Logic) solo para extraer los turnos. No se usa para otros fines.</li>
+      <li><strong>Mensajes al asistente de IA:</strong> el texto que escribes en el chat de IA y los datos del calendario necesarios para responderte o proponer un cuadrante.</li>
+      <li><strong>Seguridad:</strong> Firebase App Check (Play Integrity) verifica que las peticiones proceden de la app original. No se usa para publicidad.</li>
+    </ul>
+    <p>No recopilamos ubicación, contactos, identificador de publicidad ni datos de pago. La app no muestra anuncios.</p>
+
+    <h2>2. Para qué usamos los datos</h2>
+    <p>Exclusivamente para prestar el servicio: sincronizar tus calendarios entre dispositivos, compartirlos con las personas que tú invites mediante un código y ofrecer las funciones de IA que solicites. No vendemos datos personales ni los usamos para perfiles publicitarios.</p>
+
+    <h2>3. Con quién se comparten</h2>
+    <ul>
+      <li><strong>Miembros de un calendario compartido:</strong> ven el contenido de ese calendario, tu nombre y tu foto según su rol (miembro, administrador o propietario).</li>
+      <li><strong>Google (Firebase y Gemini):</strong> actúa como encargado del tratamiento para el almacenamiento, el inicio de sesión y la IA. Los datos viajan cifrados (HTTPS).</li>
+    </ul>
+
+    <h2>4. Permisos de la app</h2>
+    <ul>
+      <li><strong>Internet y estado de red:</strong> sincronización con Firebase.</li>
+      <li><strong>Cámara y fotos:</strong> no se piden permisos; la foto se hace con la app de cámara del sistema y las imágenes se eligen con el selector de fotos de Android, solo cuando tú lo decides.</li>
+    </ul>
+
+    <h2>5. Conservación y eliminación</h2>
+    <p>Conservamos tus datos mientras mantengas la cuenta. Puedes borrar en la app los calendarios que sean tuyos. Para eliminar tu cuenta y todos tus datos sigue los pasos de <a href="eliminar-cuenta.html">eliminar cuenta</a>; lo haremos en un plazo máximo de 30 días.</p>
+
+    <h2>6. Tus derechos</h2>
+    <p>Puedes solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiendo a <a href="mailto:maresiastreet7@gmail.com">maresiastreet7@gmail.com</a>. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
+
+    <h2>7. Menores</h2>
+    <p>TurnoMaster es una herramienta de trabajo y no está dirigida a menores de 13 años.</p>
+
+    <h2>8. Cambios</h2>
+    <p>Publicaremos en esta página cualquier cambio de esta política, indicando la fecha de actualización.</p>
+  </main>
+</body>
+</html>
